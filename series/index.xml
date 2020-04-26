@@ -15,20 +15,7 @@
       <pubDate>Fri, 24 Apr 2020 16:16:50 +0800</pubDate>
       
       <guid>https://leeggco.github.io/2020/04/my-first-post/</guid>
-      <description>hello, world `
-formCheck() {
-this.formInline.pageNow = 1
-this.fetchData()
-},
-handleSizeChange: function(val) {
-this.formInline.pageSize = val
-this.fetchData()
-},
-handleCurrentChange: function(val) {
-this.formInline.pageNow = val
-this.fetchData()
-}
-`</description>
+      <description>hello, world formCheck() { this.formInline.pageNow = 1 this.fetchData() }, handleSizeChange: function(val) { this.formInline.pageSize = val this.fetchData() }, handleCurrentChange: function(val) { this.formInline.pageNow = val this.fetchData() }  </description>
     </item>
     
     <item>
