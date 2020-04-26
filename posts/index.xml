@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on leeggco&#39;s blog</title>
+    <title>Posts on leeggco&#39;s blog | el psy congroo</title>
     <link>https://leeggco.github.io/posts/</link>
-    <description>Recent content in Posts on leeggco&#39;s blog</description>
+    <description>Recent content in Posts on leeggco&#39;s blog | el psy congroo</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 24 Apr 2020 16:16:50 +0800</lastBuildDate>
     
@@ -16,7 +16,7 @@
       <pubDate>Fri, 24 Apr 2020 16:16:50 +0800</pubDate>
       
       <guid>https://leeggco.github.io/2020/04/my-first-post/</guid>
-      <description>hello, world </description>
+      <description>hello, Hugo </description>
     </item>
     
     <item>
