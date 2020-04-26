@@ -30,7 +30,8 @@
   
   <link rel="stylesheet" href="https://leeggco.github.io/css/style.min.a795ad83ce0ed60fa1fdf1231c01e7709fbda481f27c1e5140537178b589a787.css">
   
-  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" async>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
   <meta property="og:title" content="Posts" />
 <meta property="og:description" content="" />
@@ -143,7 +144,7 @@
     <h3 class="widget-title">公告</h3>
     <div class="widget-body">
         <div id="board">
-            <div class="content"><p></p>
+            <div class="content"><p>hello, Hugo</p>
             </div>
         </div>
     </div>
@@ -299,6 +300,21 @@
     });
 </script>
 
+
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: '3f55f0dd012715b2e414',
+        clientSecret: 'eef573f047a8b9efad1c9fb37a6a5d33d6e295af',
+        repo: 'https:\/\/leeggco.github.io\/',
+        owner: 'leeggco',
+        admin: ['leeggco'],
+        id: md5(location.pathname),
+        distractionFreeMode: true
+    });
+    gitalk.render('comments');
+</script>
 
   </body>
 </html>
