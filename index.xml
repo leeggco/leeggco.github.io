@@ -11,21 +11,25 @@
     
     
     <item>
-      <title>第99999999999篇</title>
-      <link>https://leeggco.github.io/2020/04/%E7%AC%AC%E4%BA%8C%E7%AF%87/</link>
-      <pubDate>Sun, 26 Apr 2020 09:52:39 +0800</pubDate>
-      
-      <guid>https://leeggco.github.io/2020/04/%E7%AC%AC%E4%BA%8C%E7%AF%87/</guid>
-      <description>第99999999999篇</description>
-    </item>
-    
-    <item>
       <title>hello, world</title>
       <link>https://leeggco.github.io/2020/04/my-first-post/</link>
       <pubDate>Fri, 24 Apr 2020 16:16:50 +0800</pubDate>
       
       <guid>https://leeggco.github.io/2020/04/my-first-post/</guid>
-      <description>hello, world </description>
+      <description>hello, world `
+formCheck() {
+this.formInline.pageNow = 1
+this.fetchData()
+},
+handleSizeChange: function(val) {
+this.formInline.pageSize = val
+this.fetchData()
+},
+handleCurrentChange: function(val) {
+this.formInline.pageNow = val
+this.fetchData()
+}
+`</description>
     </item>
     
     <item>
