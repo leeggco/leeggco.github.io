@@ -235,7 +235,7 @@
         
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://leeggco.github.io/2020/04/my-first-post/" class="article-date">
+<a href="https://leeggco.github.io/2020/04/my-first-post/" class="article-title">
   <time datetime="2020-04-24 16:16:50 &#43;0800 HKT" itemprop="datePublished">2020-04-24</time>
 </a>
 </span>
@@ -282,6 +282,9 @@
     </div>
   </article>
 <section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 </section>
 
 </div><nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -390,6 +393,18 @@
     });
 </script>
 
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/leeggco.github.io\/2020\/04\/my-first-post\/';
+        this.page.identifier = 'your_disqus_name';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'your_disqus_name' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
 
   </body>
 </html>
