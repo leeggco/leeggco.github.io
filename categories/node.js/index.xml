@@ -5,22 +5,22 @@
     <link>https://leeggco.com/categories/node.js/</link>
     <description>Recent content in Node.js on leeggco&#39;s blog | El Psy Congroo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Apr 2020 11:56:50 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2020 12:05:34 +0800</lastBuildDate>
     
         <atom:link href="https://leeggco.com/categories/node.js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Adonis 02</title>
+      <title>Adonis —— 路由</title>
       <link>https://leeggco.com/2020/04/adonis-02/</link>
       <pubDate>Tue, 28 Apr 2020 12:05:34 +0800</pubDate>
       
       <guid>https://leeggco.com/2020/04/adonis-02/</guid>
-      <description></description>
+      <description>get 请求 Route.get(&#39;/posts&#39;, () =&amp;gt; &#39;Get has been created.&#39;) post 请求 Route.post(&#39;/posts&#39;, () =&amp;gt; &#39;Post has been created.&#39;) create 创建，这里有个重复路由的问题，需要放在posts/:id 的前面 Route.get(&#39;/posts/create&#39;, &#39;PostController.create&#39;) 请求指定数据，如果不希望强制传入</description>
     </item>
     
     <item>
-      <title>adonis-入门之常用命令</title>
+      <title>adonis —— 常用命令</title>
       <link>https://leeggco.com/2020/04/adonis-01/</link>
       <pubDate>Tue, 28 Apr 2020 11:56:50 +0800</pubDate>
       
