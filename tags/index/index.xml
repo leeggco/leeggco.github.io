@@ -10,6 +10,24 @@
     
     
     <item>
+      <title>Adonis 04</title>
+      <link>https://leeggco.com/2020/04/adonis-04/</link>
+      <pubDate>Tue, 28 Apr 2020 15:06:35 +0800</pubDate>
+      
+      <guid>https://leeggco.com/2020/04/adonis-04/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adonis —— 请求</title>
+      <link>https://leeggco.com/2020/04/adonis-03/</link>
+      <pubDate>Tue, 28 Apr 2020 12:05:34 +0800</pubDate>
+      
+      <guid>https://leeggco.com/2020/04/adonis-03/</guid>
+      <description>查询参数query &amp;amp; params Route.get(&#39;/posts&#39;, ({ request }) =&amp;gt; { return request.get() }) 使用post 请求 Route.post(&#39;/posts&#39;, ({ request }) =&amp;gt; request.post()) 同时得到请求地址的参数，使用request.all() Route.post(&#39;/posts&#39;, ({ request }) =&amp;gt; request.all()) 获取指</description>
+    </item>
+    
+    <item>
       <title>Adonis —— 路由</title>
       <link>https://leeggco.com/2020/04/adonis-02/</link>
       <pubDate>Tue, 28 Apr 2020 12:05:34 +0800</pubDate>
