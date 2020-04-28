@@ -23,7 +23,7 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <meta name="description" content="adonis-入门之常用命令 安装命令（全局） npm install @adonisjs/cli --global 或 npm i -g adonis-cli 安装数据库（sqlite3） npm install sqlite3 创建项目 adonis new demo-adonis 运行项目 npm run serve:dev 创建控制器 adonis make:controller Posts" />
+  <meta name="description" content="安装命令（全局） npm install @adonisjs/cli --global 或 npm i -g adonis-cli 安装数据库（sqlite3） npm install sqlite3 创建项目 adonis new demo-adonis 运行项目 npm run serve:dev 创建控制器 adonis make:controller Posts 创建视图 adonis make:view posts 创建数据表 adonis make:migration" />
   <meta name="generator" content="Hugo 0.69.1 with theme pure" />
   <title>adonis-入门之常用命令 - leeggco&#39;s blog | El Psy Congroo</title>
   
@@ -34,20 +34,20 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" async>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
   <meta property="og:title" content="adonis-入门之常用命令" />
-<meta property="og:description" content="adonis-入门之常用命令 安装命令（全局） npm install @adonisjs/cli --global 或 npm i -g adonis-cli 安装数据库（sqlite3） npm install sqlite3 创建项目 adonis new demo-adonis 运行项目 npm run serve:dev 创建控制器 adonis make:controller Posts" />
+<meta property="og:description" content="安装命令（全局） npm install @adonisjs/cli --global 或 npm i -g adonis-cli 安装数据库（sqlite3） npm install sqlite3 创建项目 adonis new demo-adonis 运行项目 npm run serve:dev 创建控制器 adonis make:controller Posts 创建视图 adonis make:view posts 创建数据表 adonis make:migration" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://leeggco.com/1/01/adonis-%E5%85%A5%E9%97%A8%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" />
 
 <meta itemprop="name" content="adonis-入门之常用命令">
-<meta itemprop="description" content="adonis-入门之常用命令 安装命令（全局） npm install @adonisjs/cli --global 或 npm i -g adonis-cli 安装数据库（sqlite3） npm install sqlite3 创建项目 adonis new demo-adonis 运行项目 npm run serve:dev 创建控制器 adonis make:controller Posts">
+<meta itemprop="description" content="安装命令（全局） npm install @adonisjs/cli --global 或 npm i -g adonis-cli 安装数据库（sqlite3） npm install sqlite3 创建项目 adonis new demo-adonis 运行项目 npm run serve:dev 创建控制器 adonis make:controller Posts 创建视图 adonis make:view posts 创建数据表 adonis make:migration">
 
-<meta itemprop="wordCount" content="92">
+<meta itemprop="wordCount" content="78">
 
 
 
 <meta itemprop="keywords" content="adonis," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="adonis-入门之常用命令"/>
-<meta name="twitter:description" content="adonis-入门之常用命令 安装命令（全局） npm install @adonisjs/cli --global 或 npm i -g adonis-cli 安装数据库（sqlite3） npm install sqlite3 创建项目 adonis new demo-adonis 运行项目 npm run serve:dev 创建控制器 adonis make:controller Posts"/>
+<meta name="twitter:description" content="安装命令（全局） npm install @adonisjs/cli --global 或 npm i -g adonis-cli 安装数据库（sqlite3） npm install sqlite3 创建项目 adonis new demo-adonis 运行项目 npm run serve:dev 创建控制器 adonis make:controller Posts 创建视图 adonis make:view posts 创建数据表 adonis make:migration"/>
 
   <!--[if lte IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -161,7 +161,7 @@
     <div class="widget-body">
         <ul class="category-list">
             <li class="category-list-item"><a href="https://leeggco.com/categories/cat/" class="category-list-link">cat</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://leeggco.com/categories/node.js/" class="category-list-link">node.js</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://leeggco.com/categories/node.js/" class="category-list-link">node.js</a><span class="category-list-count">2</span></li>
         </ul>
     </div>
 </div>
@@ -172,7 +172,7 @@
             
             
             <li class="tag-list-item"><a href="https://leeggco.com/tags/adonis/" class="tag-list-link">adonis</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://leeggco.com/tags/index/" class="tag-list-link">index</a><span
@@ -198,6 +198,16 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2020-04-24 16:16:50 &#43;0800 HKT" itemprop="datePublished">2020-04-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://leeggco.com/1/01/adonis-01/" class="title">adonis-入门之常用命令</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
                     </p>
                 </div>
             </li>
@@ -252,13 +262,12 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/1/01/adonis-%E5%85%A5%E9%97%A8%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/#comments"
             class="article-comment-link">评论</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 92字</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 78字</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1分 </span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <h1 id="adonis-入门之常用命令">adonis-入门之常用命令</h1>
-<p><strong>安装命令（全局）</strong>
+      <p><strong>安装命令（全局）</strong>
 <code>npm install @adonisjs/cli --global</code>
 或
 <code>npm i -g adonis-cli</code>
@@ -315,8 +324,8 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="next">
-                <a href="https://leeggco.com/about/"
-                    title="About"><span>上一篇&nbsp;&nbsp;</span><i
+                <a href="https://leeggco.com/1/01/adonis-01/"
+                    title="adonis-入门之常用命令"><span>上一篇&nbsp;&nbsp;</span><i
                         class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
             
