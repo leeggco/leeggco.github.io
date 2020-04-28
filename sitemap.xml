@@ -3,6 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://leeggco.com/adonis001/</loc>
+    <lastmod>2020-04-28T11:56:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/</loc>
+    <lastmod>2020-04-28T11:56:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://leeggco.com/categories/cat/</loc>
     <lastmod>2020-04-24T16:16:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -46,13 +60,6 @@
   
   <url>
     <loc>https://leeggco.com/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://leeggco.com/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
