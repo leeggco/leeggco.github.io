@@ -5,18 +5,18 @@
     <link>https://leeggco.com/tags/adonis/</link>
     <description>Recent content in adonis on leeggco&#39;s blog | El Psy Congroo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Apr 2020 12:05:34 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2020 15:06:35 +0800</lastBuildDate>
     
         <atom:link href="https://leeggco.com/tags/adonis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Adonis 04</title>
+      <title>Adonis —— MariaDB 数据库基本操作</title>
       <link>https://leeggco.com/2020/04/adonis-04/</link>
       <pubDate>Tue, 28 Apr 2020 15:06:35 +0800</pubDate>
       
       <guid>https://leeggco.com/2020/04/adonis-04/</guid>
-      <description></description>
+      <description>MariaDB 安装 sudo yum install MariaDB-server MariaDB-client 启动 service mysql start 设置root用户密码 mysqladmin -u root password &amp;quot;mypassword&amp;quot; 登录 mysql -uroot -p Adonis adonis支持 PostgreSQL，SQLite，MySQL，Mari</description>
     </item>
     
     <item>
