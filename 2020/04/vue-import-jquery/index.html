@@ -28,7 +28,7 @@
   <title>Vue.js 引入JQuery 及 JQuery-ui组件的使用 - leeggco&#39;s blog | El Psy Congroo</title>
   
   
-  <link rel="stylesheet" href="https://leeggco.com/css/style.min.ad16b86f0a9336ce7834d10c0779949c53c88fb681bbf0cab9562d23e2587919.css">
+  <link rel="stylesheet" href="https://leeggco.com/css/style.min.99c1d0a4114e5c5beadc7fee7f28ad3bfb8509db365036bbb6865dcdfdb8c7a3.css">
   
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async> 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" async>
@@ -43,7 +43,7 @@
 <meta itemprop="description" content="最近项目使用了JQuery-ui 的拖拽组件，Webpack打包出现 jquery is not defined 错误及ui组件无法使用。 最后的解决方式是，使用npm 包引入jQue">
 <meta itemprop="datePublished" content="2020-04-28T15:29:24&#43;08:00" />
 <meta itemprop="dateModified" content="2020-04-28T15:29:24&#43;08:00" />
-<meta itemprop="wordCount" content="302">
+<meta itemprop="wordCount" content="296">
 
 
 
@@ -312,33 +312,31 @@
 resolve: {
   extensions: ['.js', '.vue', '.json'],
   alias: {
-    'vue
-// webpack.prod.conf.js
-  plugins: [
-    // http://vuejs.github.io/vue-loader/en/workflow/production.html
-    new webpack.DefinePlugin({
-      // 'process.env': env,
-      $: 'jquery',
-      jQuery: 'jquery',
-      jquery: 'jquery',
-      'window.jQuery': 'jquery'
-    })
-    // ... 其他插件
-  ]
+      plugins: [
+          new webpack.DefinePlugin({
+          // 'process.env': env,
+          $: 'jquery',
+          jQuery: 'jquery',
+          jquery: 'jquery',
+          'window.jQuery': 'jquery'
+          })
+      // ... 其他插件
+      ]
+  
 // main.js
 import $ from 'expose-loader?$!jquery'
 import '../static/jquery-ui.min.js'
 window.$ = $
+
 // 增加上面代码到main.js，便可以在全局范围内使用$及ui插件。
 </code></pre>
 <p>PS: 有可能页面还会报错，试着在页面单独引入JQuery</p>
 <pre><code>import $ from 'expose-loader?$!jquery'
 </code></pre>
 <p>或者是这个报错，同样适用。</p>
-<pre><code>  This dependency was not found:
-  
-  * expose-loader?$!jquery in ./src/main.js, ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&amp;index=0&amp;bustCache!./src/components/boardTopu/index.vue and 1 other
-    To install it, you can run: npm install --save expose-loader?$!jquery
+<pre><code>This dependency was not found:
+expose-loader?$!jquery in ./src/main.js, ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&amp;index=0&amp;bustCache!./src/components/boardTopu/index.vue and 1 other
+To install it, you can run: npm install --save expose-loader?$!jquery
 </code></pre>
 
     </div>
