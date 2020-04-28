@@ -299,34 +299,32 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2020/04/nginx-base-command/#comments"
             class="article-comment-link">评论</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 170字</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1分 </span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>修改配置后重新加载生效</p>
+      <p><strong>修改配置后重新加载生效</strong></p>
 <pre><code>nginx -s reload
 </code></pre>
-<p>重新打开日志文件</p>
+<p><strong>重新打开日志文件</strong></p>
 <pre><code>nginx -s reopen
 </code></pre>
-<p>测试nginx配置文件是否正确</p>
+<p><strong>测试nginx配置文件是否正确</strong></p>
 <pre><code>nginx -t -c /path/to/nginx.conf
 </code></pre>
-<p>关闭nginx</p>
+<p><strong>关闭nginx</strong></p>
 <pre><code>nginx -s stop  //快速停止nginx
 quit  //完整有序的停止nginx
 </code></pre>
-<p>其他的停止nginx 方式</p>
+<p><strong>其他的停止nginx 方式</strong></p>
 <pre><code>ps -ef | grep nginx
 kill -QUIT 主进程号  //从容停止Nginx
 kill -TERM 主进程号 //快速停止Nginx
 pkill -9 nginx  //强制停止Nginx
 </code></pre>
-<p>启动nginx</p>
+<p><strong>启动nginx</strong></p>
 <pre><code>nginx -c /path/to/nginx.conf
 </code></pre>
-<p>平滑重启nginx</p>
+<p><strong>平滑重启nginx</strong></p>
 <pre><code>kill -HUP 主进程号
 </code></pre>
 

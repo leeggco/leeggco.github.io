@@ -300,15 +300,13 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2020/04/centos-ngxin-aliyun-config/#comments"
             class="article-comment-link">评论</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 462字</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1分 </span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>由于开发微信小程序https的需求，把阿里云上的Nodejs配置了https。
-1、首先在阿里云域名管理里面申请Symantec 免费版 SSL，并验证。
-2、下载密钥文件，放在程序的目录里，这里我在根目录创建https来存放。
-3、在node程序里配置https，因为使用了express，所以是./bin/www文件。这里有个问题是https不能监听443端口，因为nginx需要使用这个端口，把http端口设置为8012，https端口设置为9012，代码如下：</p>
+      <p>由于开发微信小程序https的需求，把阿里云上的Nodejs配置了https。</p>
+<p>1、首先在阿里云域名管理里面申请Symantec 免费版 SSL，并验证。</p>
+<p>2、下载密钥文件，放在程序的目录里，这里我在根目录创建https来存放。</p>
+<p>3、在node程序里配置https，因为使用了express，所以是./bin/www文件。这里有个问题是https不能监听443端口，因为nginx需要使用这个端口，把http端口设置为8012，https端口设置为9012，代码如下：</p>
 <pre><code class="language-javascript">var app = require('../app');
 var debug = require('debug')('books:server');
 var http = require('http');
