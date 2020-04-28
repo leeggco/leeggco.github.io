@@ -3,6 +3,104 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://leeggco.com/categories/</loc>
+    <lastmod>2020-04-28T15:42:45+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/tags/g6/</loc>
+    <lastmod>2020-04-28T15:42:45+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/2020/04/g6-editor-tutorial/</loc>
+    <lastmod>2020-04-28T15:42:45+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/posts/</loc>
+    <lastmod>2020-04-28T15:42:45+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/tags/</loc>
+    <lastmod>2020-04-28T15:42:45+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/categories/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
+    <lastmod>2020-04-28T15:42:45+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/categories/centos/</loc>
+    <lastmod>2020-04-28T15:36:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/2020/04/centos-ngxin-aliyun-config/</loc>
+    <lastmod>2020-04-28T15:36:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/categories/nginx/</loc>
+    <lastmod>2020-04-28T15:36:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/tags/others/</loc>
+    <lastmod>2020-04-28T15:36:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/2020/04/nginx-base-command/</loc>
+    <lastmod>2020-04-28T15:33:48+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/categories/jquery/</loc>
+    <lastmod>2020-04-28T15:29:24+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/categories/vue.js/</loc>
+    <lastmod>2020-04-28T15:29:24+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/2020/04/vue-import-jquery/</loc>
+    <lastmod>2020-04-28T15:29:24+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://leeggco.com/tags/adonis/</loc>
     <lastmod>2020-04-28T15:06:35+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -10,14 +108,7 @@
   </url>
   
   <url>
-    <loc>https://leeggco.com/2020/04/adonis-04/</loc>
-    <lastmod>2020-04-28T15:06:35+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://leeggco.com/categories/</loc>
+    <loc>https://leeggco.com/2020/04/adonis-mariadb-pm2/</loc>
     <lastmod>2020-04-28T15:06:35+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -31,35 +122,21 @@
   </url>
   
   <url>
-    <loc>https://leeggco.com/posts/</loc>
-    <lastmod>2020-04-28T15:06:35+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://leeggco.com/tags/</loc>
-    <lastmod>2020-04-28T15:06:35+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://leeggco.com/2020/04/adonis-03/</loc>
+    <loc>https://leeggco.com/2020/04/adonis-request/</loc>
     <lastmod>2020-04-28T12:05:34+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://leeggco.com/2020/04/adonis-02/</loc>
+    <loc>https://leeggco.com/2020/04/adonis-route/</loc>
     <lastmod>2020-04-28T12:05:34+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://leeggco.com/2020/04/adonis-01/</loc>
+    <loc>https://leeggco.com/2020/04/adonis-command/</loc>
     <lastmod>2020-04-28T11:56:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
