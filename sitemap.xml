@@ -3,14 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://leeggco.com/adonis001/</loc>
+    <loc>https://leeggco.com/tags/adonis/</loc>
     <lastmod>2020-04-28T11:56:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://leeggco.com/</loc>
+    <loc>https://leeggco.com/2020/04/adonis-01/</loc>
+    <lastmod>2020-04-28T11:56:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/categories/</loc>
+    <lastmod>2020-04-28T11:56:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/categories/node.js/</loc>
+    <lastmod>2020-04-28T11:56:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/posts/</loc>
+    <lastmod>2020-04-28T11:56:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/tags/</loc>
     <lastmod>2020-04-28T11:56:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -24,28 +52,7 @@
   </url>
   
   <url>
-    <loc>https://leeggco.com/categories/</loc>
-    <lastmod>2020-04-24T16:16:50+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://leeggco.com/2020/04/hello-world/</loc>
-    <lastmod>2020-04-24T16:16:50+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://leeggco.com/posts/</loc>
-    <lastmod>2020-04-24T16:16:50+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://leeggco.com/tags/</loc>
     <lastmod>2020-04-24T16:16:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -60,6 +67,13 @@
   
   <url>
     <loc>https://leeggco.com/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

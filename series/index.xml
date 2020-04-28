@@ -10,12 +10,12 @@
     
     
     <item>
-      <title>Adonis001</title>
-      <link>https://leeggco.com/adonis001/</link>
+      <title>adonis-入门之常用命令</title>
+      <link>https://leeggco.com/2020/04/adonis-01/</link>
       <pubDate>Tue, 28 Apr 2020 11:56:50 +0800</pubDate>
       
-      <guid>https://leeggco.com/adonis001/</guid>
-      <description></description>
+      <guid>https://leeggco.com/2020/04/adonis-01/</guid>
+      <description>安装命令（全局） npm install @adonisjs/cli --global 或 npm i -g adonis-cli 安装数据库（sqlite3） npm install sqlite3 创建项目 adonis new demo-adonis 运行项目 npm run serve:dev 创建控制器 adonis make:controller Posts 创建视图 adonis make:view posts 创建数据表 adonis make:migration</description>
     </item>
     
     <item>
