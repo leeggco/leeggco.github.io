@@ -30,8 +30,7 @@
   
   <link rel="stylesheet" href="https://leeggco.com/css/style.min.99c1d0a4114e5c5beadc7fee7f28ad3bfb8509db365036bbb6865dcdfdb8c7a3.css">
   
-  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async> 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" async>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
   <meta property="og:title" content="G6-Editor 编辑器入门使用教程" />
 <meta property="og:description" content="一、前言 G6-Editor 是 AntV 官方提供的、专注于图可视化编辑器的类库，也是市面上完成度较高的图可视化编辑器。然而令人诟病的是其文档对新手极度不友好，我一度怀" />
@@ -561,6 +560,9 @@ currentPage.on('afteritemselected', ev =&gt; {
     </div>
   </article>
 <section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 </section>
 
 </div><nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -664,20 +666,17 @@ currentPage.on('afteritemselected', ev =&gt; {
     });
 </script>
 
-
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
-<script type="text/javascript">
-    var gitalk = new Gitalk({
-        clientID: '3f55f0dd012715b2e414',
-        clientSecret: '3b03d408baaf57dc56e8a6c5a70e2d8b2f333dfa',
-        repo: 'blog-comments',
-        owner: 'leeggco',
-        admin: ['leeggco'],
-        id: md5(location.pathname),
-        distractionFreeMode: false
-    });
-    gitalk.render('comments');
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/leeggco.com\/2020\/04\/g6-editor-tutorial\/';
+        this.page.identifier = 'disqus_oOFdD8ny0e';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'disqus_oOFdD8ny0e' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
 </script>
 
   </body>

@@ -30,8 +30,7 @@
   
   <link rel="stylesheet" href="https://leeggco.com/css/style.min.99c1d0a4114e5c5beadc7fee7f28ad3bfb8509db365036bbb6865dcdfdb8c7a3.css">
   
-  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async> 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" async>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
   <meta property="og:title" content="Adonis —— MariaDB 数据库基本操作" />
 <meta property="og:description" content="MariaDB 安装 sudo yum install MariaDB-server MariaDB-client 启动 service mysql start 设置root用户密码 mysqladmin -u root password &quot;mypassword&quot; 登录 mysql -uroot -p Adonis adonis支持 PostgreSQL，SQLite，MySQL，Mari" />
@@ -369,6 +368,9 @@
     </div>
   </article>
 <section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 </section>
 
 </div><nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -477,20 +479,17 @@
     });
 </script>
 
-
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
-<script type="text/javascript">
-    var gitalk = new Gitalk({
-        clientID: '3f55f0dd012715b2e414',
-        clientSecret: '3b03d408baaf57dc56e8a6c5a70e2d8b2f333dfa',
-        repo: 'blog-comments',
-        owner: 'leeggco',
-        admin: ['leeggco'],
-        id: md5(location.pathname),
-        distractionFreeMode: false
-    });
-    gitalk.render('comments');
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/leeggco.com\/2020\/04\/adonis-mariadb-pm2\/';
+        this.page.identifier = 'disqus_oOFdD8ny0e';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'disqus_oOFdD8ny0e' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
 </script>
 
   </body>
