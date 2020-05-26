@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://leeggco.com/2020/05/want-to-do-something/</loc>
+    <lastmod>2020-05-18T16:16:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://leeggco.com/posts/</loc>
     <lastmod>2020-05-18T16:16:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -10,7 +17,21 @@
   </url>
   
   <url>
+    <loc>https://leeggco.com/tags/</loc>
+    <lastmod>2020-05-18T16:16:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://leeggco.com/2020/05/weekends-plan/</loc>
+    <lastmod>2020-05-18T16:16:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://leeggco.com/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2020-05-18T16:16:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -32,13 +53,6 @@
   
   <url>
     <loc>https://leeggco.com/2020/04/g6-editor-tutorial/</loc>
-    <lastmod>2020-04-28T15:42:45+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://leeggco.com/tags/</loc>
     <lastmod>2020-04-28T15:42:45+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
