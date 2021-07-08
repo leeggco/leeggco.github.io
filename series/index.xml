@@ -2,118 +2,118 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on leeggco&#39;s blog | El Psy Congroo</title>
-    <link>https://leeggco.com/series/</link>
+    <link>https://vaca.live/series/</link>
     <description>Recent content in Series on leeggco&#39;s blog | El Psy Congroo</description>
     <generator>Hugo -- gohugo.io</generator>
     
-        <atom:link href="https://leeggco.com/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://vaca.live/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2020年5月26日 随笔</title>
-      <link>https://leeggco.com/2020/05/want-to-do-something/</link>
+      <link>https://vaca.live/2020/05/want-to-do-something/</link>
       <pubDate>Mon, 18 May 2020 16:16:50 +0800</pubDate>
       
-      <guid>https://leeggco.com/2020/05/want-to-do-something/</guid>
+      <guid>https://vaca.live/2020/05/want-to-do-something/</guid>
       <description>今天开王兴似乎在用虾米APP，那UI很熟悉，</description>
     </item>
     
     <item>
       <title>一周一程序计划，第一周</title>
-      <link>https://leeggco.com/2020/05/weekends-plan/</link>
+      <link>https://vaca.live/2020/05/weekends-plan/</link>
       <pubDate>Mon, 18 May 2020 16:16:50 +0800</pubDate>
       
-      <guid>https://leeggco.com/2020/05/weekends-plan/</guid>
+      <guid>https://vaca.live/2020/05/weekends-plan/</guid>
       <description>一周一程序计划是个突然的想法，就想着做做看吧 第一周，日语Q版50音图（已上线） 一个简单的日语50音图，点击进去是一张Q版的联想图，点击播放按</description>
     </item>
     
     <item>
       <title>G6-Editor 编辑器入门使用教程</title>
-      <link>https://leeggco.com/2020/04/g6-editor-tutorial/</link>
+      <link>https://vaca.live/2020/04/g6-editor-tutorial/</link>
       <pubDate>Tue, 28 Apr 2020 15:42:45 +0800</pubDate>
       
-      <guid>https://leeggco.com/2020/04/g6-editor-tutorial/</guid>
+      <guid>https://vaca.live/2020/04/g6-editor-tutorial/</guid>
       <description>一、前言 G6-Editor 是 AntV 官方提供的、专注于图可视化编辑器的类库，也是市面上完成度较高的图可视化编辑器。然而令人诟病的是其文档对新手极度不友好，我一度怀</description>
     </item>
     
     <item>
       <title>centos 6x nodejs express nginx https 阿里云配置</title>
-      <link>https://leeggco.com/2020/04/centos-ngxin-aliyun-config/</link>
+      <link>https://vaca.live/2020/04/centos-ngxin-aliyun-config/</link>
       <pubDate>Tue, 28 Apr 2020 15:36:39 +0800</pubDate>
       
-      <guid>https://leeggco.com/2020/04/centos-ngxin-aliyun-config/</guid>
+      <guid>https://vaca.live/2020/04/centos-ngxin-aliyun-config/</guid>
       <description>由于开发微信小程序https的需求，把阿里云上的Nodejs配置了https。 1、首先在阿里云域名管理里面申请Symantec 免费版 SSL，</description>
     </item>
     
     <item>
       <title>Nginx 基本命令</title>
-      <link>https://leeggco.com/2020/04/nginx-base-command/</link>
+      <link>https://vaca.live/2020/04/nginx-base-command/</link>
       <pubDate>Tue, 28 Apr 2020 15:33:48 +0800</pubDate>
       
-      <guid>https://leeggco.com/2020/04/nginx-base-command/</guid>
+      <guid>https://vaca.live/2020/04/nginx-base-command/</guid>
       <description>修改配置后重新加载生效 nginx -s reload 重新打开日志文件 nginx -s reopen 测试nginx配置文件是否正确 nginx -t -c /path/to/nginx.conf 关闭nginx nginx -s stop //快速停止nginx quit //完整</description>
     </item>
     
     <item>
       <title>Vue.js 引入JQuery 及 JQuery-ui组件的使用</title>
-      <link>https://leeggco.com/2020/04/vue-import-jquery/</link>
+      <link>https://vaca.live/2020/04/vue-import-jquery/</link>
       <pubDate>Tue, 28 Apr 2020 15:29:24 +0800</pubDate>
       
-      <guid>https://leeggco.com/2020/04/vue-import-jquery/</guid>
+      <guid>https://vaca.live/2020/04/vue-import-jquery/</guid>
       <description>最近项目使用了JQuery-ui 的拖拽组件，Webpack打包出现 jquery is not defined 错误及ui组件无法使用。 最后的解决方式是，使用npm 包引入jQue</description>
     </item>
     
     <item>
       <title>Adonis —— MariaDB 数据库基本操作</title>
-      <link>https://leeggco.com/2020/04/adonis-mariadb-pm2/</link>
+      <link>https://vaca.live/2020/04/adonis-mariadb-pm2/</link>
       <pubDate>Tue, 28 Apr 2020 15:06:35 +0800</pubDate>
       
-      <guid>https://leeggco.com/2020/04/adonis-mariadb-pm2/</guid>
+      <guid>https://vaca.live/2020/04/adonis-mariadb-pm2/</guid>
       <description>MariaDB 安装 sudo yum install MariaDB-server MariaDB-client 启动 service mysql start 设置root用户密码 mysqladmin -u root password &amp;quot;mypassword&amp;quot; 登录 mysql -uroot -p Adonis adonis支持 PostgreSQL，SQLite，MySQL，Mari</description>
     </item>
     
     <item>
       <title>Adonis —— 请求</title>
-      <link>https://leeggco.com/2020/04/adonis-request/</link>
+      <link>https://vaca.live/2020/04/adonis-request/</link>
       <pubDate>Tue, 28 Apr 2020 12:05:34 +0800</pubDate>
       
-      <guid>https://leeggco.com/2020/04/adonis-request/</guid>
+      <guid>https://vaca.live/2020/04/adonis-request/</guid>
       <description>查询参数query &amp;amp; params Route.get(&#39;/posts&#39;, ({ request }) =&amp;gt; { return request.get() }) 使用post 请求 Route.post(&#39;/posts&#39;, ({ request }) =&amp;gt; request.post()) 同时得到请求地址的参数，使用request.all() Route.post(&#39;/posts&#39;, ({ request }) =&amp;gt; request.all()) 获取指</description>
     </item>
     
     <item>
       <title>Adonis —— 路由</title>
-      <link>https://leeggco.com/2020/04/adonis-route/</link>
+      <link>https://vaca.live/2020/04/adonis-route/</link>
       <pubDate>Tue, 28 Apr 2020 12:05:34 +0800</pubDate>
       
-      <guid>https://leeggco.com/2020/04/adonis-route/</guid>
+      <guid>https://vaca.live/2020/04/adonis-route/</guid>
       <description>get 请求 Route.get(&#39;/posts&#39;, () =&amp;gt; &#39;Get has been created.&#39;) post 请求 Route.post(&#39;/posts&#39;, () =&amp;gt; &#39;Post has been created.&#39;) create 创建，这里有个重复路由的问题，需要放在posts/:id 的前面 Route.get(&#39;/posts/create&#39;, &#39;PostController.create&#39;) 请求指定数据，如果不希望强制传入</description>
     </item>
     
     <item>
       <title>Adonis —— 常用命令</title>
-      <link>https://leeggco.com/2020/04/adonis-command/</link>
+      <link>https://vaca.live/2020/04/adonis-command/</link>
       <pubDate>Tue, 28 Apr 2020 11:56:50 +0800</pubDate>
       
-      <guid>https://leeggco.com/2020/04/adonis-command/</guid>
+      <guid>https://vaca.live/2020/04/adonis-command/</guid>
       <description>安装命令（全局） npm install @adonisjs/cli --global 或 npm i -g adonis-cli 安装数据库（sqlite3） npm install sqlite3 创建项目 adonis new demo-adonis 运行项目 npm run serve:dev 创建控制器 adonis make:controller Posts 创建视图 adonis make:view posts 创建数据表 adonis make:migration</description>
     </item>
     
     <item>
       <title>hello, world</title>
-      <link>https://leeggco.com/2020/04/hello-world/</link>
+      <link>https://vaca.live/2020/04/hello-world/</link>
       <pubDate>Fri, 24 Apr 2020 16:16:50 +0800</pubDate>
       
-      <guid>https://leeggco.com/2020/04/hello-world/</guid>
+      <guid>https://vaca.live/2020/04/hello-world/</guid>
       <description>hello, Hugo </description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://leeggco.com/about/</link>
+      <link>https://vaca.live/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://leeggco.com/about/</guid>
+      <guid>https://vaca.live/about/</guid>
       <description>Hi, this is leeggco&amp;rsquo;s blog. </description>
     </item>
     
