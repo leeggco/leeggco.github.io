@@ -5,10 +5,19 @@
     <link>https://vaca.live/</link>
     <description>Recent content on leeggco&#39;s blog | El Psy Congroo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 18 Jul 2021 16:16:50 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 18 Sep 2021 15:29:24 +0800</lastBuildDate>
     
         <atom:link href="https://vaca.live/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Three.js 实现模型边缘高亮</title>
+      <link>https://vaca.live/2021/09/three-model-highlight/</link>
+      <pubDate>Sat, 18 Sep 2021 15:29:24 +0800</pubDate>
+      
+      <guid>https://vaca.live/2021/09/three-model-highlight/</guid>
+      <description>&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;Three.js 模型边缘高亮&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; body { margin: 0; overflow: hidden } &amp;lt;/style&amp;gt; &amp;lt;script src=&amp;quot;./js/three.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;./js/OrbitControls.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;./js/CSS2DRenderer.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;./js/loaders/DDSLoader.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;./js/loaders/MTLLoader.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;./js/loaders/OBJLoader.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;!-- 激活某个物件后发光特效 --&amp;gt; &amp;lt;script src=&amp;quot;./js/shaders/CopyShader.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;./js/postprocessing/EffectComposer.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;./js/postprocessing/RenderPass.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;./js/shaders/FXAAShader.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;</description>
+    </item>
     
     <item>
       <title>WordPress固定链接出现404的解决办法</title>

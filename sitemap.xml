@@ -3,15 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vaca.live/categories/</loc>
+    <lastmod>2021-09-18T15:29:24+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://vaca.live/</loc>
-    <lastmod>2021-07-18T16:16:50+08:00</lastmod>
+    <lastmod>2021-09-18T15:29:24+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://vaca.live/posts/</loc>
-    <lastmod>2021-07-18T16:16:50+08:00</lastmod>
+    <lastmod>2021-09-18T15:29:24+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://vaca.live/tags/</loc>
+    <lastmod>2021-09-18T15:29:24+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://vaca.live/tags/three.js/</loc>
+    <lastmod>2021-09-18T15:29:24+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://vaca.live/2021/09/three-model-highlight/</loc>
+    <lastmod>2021-09-18T15:29:24+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://vaca.live/categories/%E4%B8%89%E7%BB%B4%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
+    <lastmod>2021-09-18T15:29:24+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,13 +66,6 @@
   </url>
   
   <url>
-    <loc>https://vaca.live/categories/</loc>
-    <lastmod>2020-04-28T15:42:45+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://vaca.live/tags/g6/</loc>
     <lastmod>2020-04-28T15:42:45+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -46,13 +74,6 @@
   
   <url>
     <loc>https://vaca.live/2020/04/g6-editor-tutorial/</loc>
-    <lastmod>2020-04-28T15:42:45+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://vaca.live/tags/</loc>
     <lastmod>2020-04-28T15:42:45+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
