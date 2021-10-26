@@ -3,28 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://vaca.live/categories/</loc>
-    <lastmod>2021-09-18T15:29:24+08:00</lastmod>
+    <loc>https://vaca.live/</loc>
+    <lastmod>2021-10-26T16:16:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://vaca.live/</loc>
-    <lastmod>2021-09-18T15:29:24+08:00</lastmod>
+    <loc>https://vaca.live/tags/others/</loc>
+    <lastmod>2021-10-26T16:16:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://vaca.live/posts/</loc>
-    <lastmod>2021-09-18T15:29:24+08:00</lastmod>
+    <lastmod>2021-10-26T16:16:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://vaca.live/tags/</loc>
+    <lastmod>2021-10-26T16:16:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://vaca.live/2021/10/fix-cannot-currently-show-the-desktop/</loc>
+    <lastmod>2021-10-26T16:16:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://vaca.live/categories/</loc>
     <lastmod>2021-09-18T15:29:24+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -102,13 +116,6 @@
   
   <url>
     <loc>https://vaca.live/categories/nginx/</loc>
-    <lastmod>2020-04-28T15:36:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://vaca.live/tags/others/</loc>
     <lastmod>2020-04-28T15:36:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -206,12 +213,6 @@
   
   <url>
     <loc>https://vaca.live/series/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://vaca.live/1/01/fix-cannot-currently-show-the-desktop/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

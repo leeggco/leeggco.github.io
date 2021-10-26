@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>解决：树莓派 VNC连接远程桌面cannot currently show the desktop</title>
+      <link>https://vaca.live/2021/10/fix-cannot-currently-show-the-desktop/</link>
+      <pubDate>Tue, 26 Oct 2021 16:16:50 +0800</pubDate>
+      
+      <guid>https://vaca.live/2021/10/fix-cannot-currently-show-the-desktop/</guid>
+      <description>最近在树莓派4B上安装宝塔面板后，导致VNC远程桌面提示错误cannot currently show the desktop。 在网上搜出来的基本上都是用raspi-conf</description>
+    </item>
+    
+    <item>
       <title>Three.js 实现模型边缘高亮</title>
       <link>https://vaca.live/2021/09/three-model-highlight/</link>
       <pubDate>Sat, 18 Sep 2021 15:29:24 +0800</pubDate>
@@ -125,15 +134,6 @@
       
       <guid>https://vaca.live/about/</guid>
       <description>Hi, this is leeggco&amp;rsquo;s blog. </description>
-    </item>
-    
-    <item>
-      <title>解决：树莓派 VNC连接远程桌面cannot currently show the desktop</title>
-      <link>https://vaca.live/1/01/fix-cannot-currently-show-the-desktop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vaca.live/1/01/fix-cannot-currently-show-the-desktop/</guid>
-      <description>最近在树莓派4B上安装宝塔面板后，导致VNC远程桌面提示错误cannot currently show the desktop。 在网上搜出来的基本上都是用raspi-conf</description>
     </item>
     
   </channel>
